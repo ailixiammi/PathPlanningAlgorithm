@@ -173,6 +173,7 @@ int Dijkstra(vector<vector<uint>>& graph, int start, int end)
     return dis[end];
 }
 
+#if 0
 int main()
 {
     vector<vector<uint>> graph = {
@@ -190,3 +191,4 @@ int main()
 
     return 0;
 }
+#endif

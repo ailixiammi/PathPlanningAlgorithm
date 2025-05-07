@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\VisualStudio\Projects\Path Planning Algorithm\Path_Planning_Algorithm\x64\Debug\01_Dijkstar.exe</FullPath>
+      <FullPath>E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\x64\Debug\01_Dijkstar.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

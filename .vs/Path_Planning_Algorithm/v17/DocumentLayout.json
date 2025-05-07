@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\",
+  "WorkspaceRootPath": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{752773ED-3697-42F4-91FD-882B2C60F5EF}|00_Graph\\00_Graph.vcxproj|E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\00_Graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{752773ED-3697-42F4-91FD-882B2C60F5EF}|00_Graph\\00_Graph.vcxproj|solutionrelative:00_Graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9CE23F46-600D-4A09-9558-4E17715CBD0E}|00_priority_queue\\00_priority_queue.vcxproj|E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_priority_queue\\priority_queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CE23F46-600D-4A09-9558-4E17715CBD0E}|00_priority_queue\\00_priority_queue.vcxproj|solutionrelative:00_priority_queue\\priority_queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA6A818B-BCAD-475C-83B2-FF4599434E7E}|01_Dijkstar\\01_Dijkstar.vcxproj|E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\01_Dijkstar\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{AA6A818B-BCAD-475C-83B2-FF4599434E7E}|01_Dijkstar\\01_Dijkstar.vcxproj|E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\01_Dijkstar\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AA6A818B-BCAD-475C-83B2-FF4599434E7E}|01_Dijkstar\\01_Dijkstar.vcxproj|solutionrelative:01_Dijkstar\\Dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752773ED-3697-42F4-91FD-882B2C60F5EF}|00_Graph\\00_Graph.vcxproj|E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_Graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{752773ED-3697-42F4-91FD-882B2C60F5EF}|00_Graph\\00_Graph.vcxproj|solutionrelative:00_Graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,30 +29,45 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dijkstra.cpp",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\01_Dijkstar\\Dijkstra.cpp",
-              "RelativeDocumentMoniker": "01_Dijkstar\\Dijkstra.cpp",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\01_Dijkstar\\Dijkstra.cpp",
-              "RelativeToolTip": "01_Dijkstar\\Dijkstra.cpp",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAwwIgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-07T04:52:40.413Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "graph.cpp",
-              "DocumentMoniker": "E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\00_Graph\\graph.cpp",
-              "RelativeDocumentMoniker": "00_Graph\\graph.cpp",
-              "ToolTip": "E:\\VisualStudio\\Projects\\Path Planning Algorithm\\Path_Planning_Algorithm\\00_Graph\\graph.cpp",
-              "RelativeToolTip": "00_Graph\\graph.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "priority_queue.cpp",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_priority_queue\\priority_queue.cpp",
+              "RelativeDocumentMoniker": "00_priority_queue\\priority_queue.cpp",
+              "ToolTip": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_priority_queue\\priority_queue.cpp",
+              "RelativeToolTip": "00_priority_queue\\priority_queue.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-07T02:50:50.498Z",
+              "WhenOpened": "2025-05-07T14:34:00.678Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dijkstra.cpp",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\01_Dijkstar\\Dijkstra.cpp",
+              "RelativeDocumentMoniker": "01_Dijkstar\\Dijkstra.cpp",
+              "ToolTip": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\01_Dijkstar\\Dijkstra.cpp",
+              "RelativeToolTip": "01_Dijkstar\\Dijkstra.cpp",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T04:52:40.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "graph.cpp",
+              "DocumentMoniker": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_Graph\\graph.cpp",
+              "RelativeDocumentMoniker": "00_Graph\\graph.cpp",
+              "ToolTip": "E:\\VisualStudio\\Projects\\PathPlanningAlgorithm\\PPA\\00_Graph\\graph.cpp",
+              "RelativeToolTip": "00_Graph\\graph.cpp",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T02:50:50.498Z"
             }
           ]
         }

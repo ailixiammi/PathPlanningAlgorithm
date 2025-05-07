@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Dijkstar", "01_Dijkstar\01_Dijkstar.vcxproj", "{AA6A818B-BCAD-475C-83B2-FF4599434E7E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00_Graph", "00_Graph\00_Graph.vcxproj", "{752773ED-3697-42F4-91FD-882B2C60F5EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00_priority_queue", "00_priority_queue\00_priority_queue.vcxproj", "{9CE23F46-600D-4A09-9558-4E17715CBD0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{752773ED-3697-42F4-91FD-882B2C60F5EF}.Release|x64.Build.0 = Release|x64
 		{752773ED-3697-42F4-91FD-882B2C60F5EF}.Release|x86.ActiveCfg = Release|Win32
 		{752773ED-3697-42F4-91FD-882B2C60F5EF}.Release|x86.Build.0 = Release|Win32
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Debug|x64.ActiveCfg = Debug|x64
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Debug|x64.Build.0 = Debug|x64
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Debug|x86.Build.0 = Debug|Win32
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Release|x64.ActiveCfg = Release|x64
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Release|x64.Build.0 = Release|x64
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Release|x86.ActiveCfg = Release|Win32
+		{9CE23F46-600D-4A09-9558-4E17715CBD0E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
