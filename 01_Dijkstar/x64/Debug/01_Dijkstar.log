@@ -1,4 +1,3 @@
-﻿  Dijkstra.cpp
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\01_Dijkstar\Dijkstra.cpp(112,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\01_Dijkstar\Dijkstra.cpp(112,17): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+﻿  Dijkstra2.cpp
+E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\01_Dijkstar\Dijkstra2.cpp(30,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   01_Dijkstar.vcxproj -> E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\x64\Debug\01_Dijkstar.exe

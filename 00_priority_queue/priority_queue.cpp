@@ -85,6 +85,7 @@ int main()
 
 	pqPair2.push({ 10, 1 });
 	pqPair2.push({ 20, 2 });
+	pqPair2.push({ 5, 4 });
 	pqPair2.push({ 5, 3 });
 
 	print4(pqPair2);
