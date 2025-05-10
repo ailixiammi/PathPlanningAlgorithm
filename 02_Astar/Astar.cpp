@@ -1,5 +1,7 @@
 /*
-    Astar算法是一种启发式搜索算法，本程序选用曼哈顿距离作为启发式函数
+    Astar算法是一种启发式搜索算法，
+    f(n) = g(n) + h(n)
+    本程序选用曼哈顿距离作为启发式函数
     打印从起点到终点的最短路径和该路径的权值
 */
 #include <iostream>
@@ -40,10 +42,10 @@ void aStar(const vector<vector<uint>>& graph,
     const vector<pair<int, int>>& coord)
 {
     const int n = graph.size();
-    vector<uint> g(n, INF);
-    vector<int> prev(n, -1);
+    vector<uint> g(n, INF);     // g(n)，记录从起点到某个顶点的实际距离
+    vector<int> prev(n, -1);    // 记录前驱节点
 
-    // 定义优先队列元素类型
+    // 定义优先队列元素类型（h(n), 顶点编号）
     priority_queue<pair<uint, int>, vector<pair<uint, int>>, greater<pair<uint, int>>> openSet;
 
     // 初始化起点
@@ -110,6 +112,7 @@ int main()
         {INF,INF,  2,   5,   0}
     };
 
+    // 各个顶点的坐标
     vector<pair<int, int>> coordinates = {
         {1, 4}, {3, 4}, {4, 3},
         {2, 1}, {4, 1}

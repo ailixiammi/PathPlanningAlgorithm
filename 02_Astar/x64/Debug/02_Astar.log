@@ -1,4 +1,2 @@
-﻿  Astar.cpp
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\02_Astar\Astar.cpp(42,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\02_Astar\Astar.cpp(42,17): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+﻿  src.cpp
   02_Astar.vcxproj -> E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\x64\Debug\02_Astar.exe
