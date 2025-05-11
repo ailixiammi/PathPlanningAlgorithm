@@ -1,0 +1,32 @@
+﻿  RRT.cpp
+E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\04_RRT\RRT.cpp(194,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VisualStudio\2022\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“RRT.cpp”)
+      E:\VisualStudio\2022\VC\Tools\MSVC\14.43.34808\include\xmemory(732,103):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\04_RRT\RRT.cpp(172,12):
+          查看对正在编译的函数 模板 实例化“void std::vector<Node,std::allocator<Node>>::emplace_back<Point&,unsigned __int64,double&>(Point &,unsigned __int64 &&,double &)”的引用
+              E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\04_RRT\RRT.cpp(172,24):
+              请参阅 "RRT::buildTree" 中对 "std::vector<Node,std::allocator<Node>>::emplace_back" 的第一个引用
+          E:\VisualStudio\2022\VC\Tools\MSVC\14.43.34808\include\vector(909,24):
+          查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<Point&,unsigned __int64,double&>(Point &,unsigned __int64 &&,double &)”的引用
+          with
+          [
+              _Ty=Node
+          ]
+          E:\VisualStudio\2022\VC\Tools\MSVC\14.43.34808\include\vector(830,20):
+          查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<Point&,unsigned __int64,double&>(Point &,unsigned __int64 &&,double &)”的引用
+          with
+          [
+              _Ty=Node
+          ]
+          E:\VisualStudio\2022\VC\Tools\MSVC\14.43.34808\include\vector(848,27):
+          查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Point&,unsigned __int64,double&>(_Alloc &,_Objty *const ,Point &,unsigned __int64 &&,double &)”的引用
+          with
+          [
+              _Alloc=std::allocator<Node>,
+              _Ty=Node,
+              _Objty=Node
+          ]
+  
+  04_RRT.vcxproj -> E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\x64\Debug\04_RRT.exe

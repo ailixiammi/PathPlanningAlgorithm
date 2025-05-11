@@ -36,7 +36,7 @@ struct Point
 	}
 };
 
-// 障碍物结构(二维原型障碍物)
+// 障碍物结构(二维圆形障碍物)
 struct Obstacle
 {
 	// 圆心
@@ -51,7 +51,6 @@ struct Obstacle
 		// 是返回true，否返回false
 		return center.distanceTo(p) < radius;
 	}
-
 };
 
 // PRM路线图节点
@@ -68,7 +67,9 @@ struct Node
 class PRM
 {
 private:
+	// 储存所有节点
 	vector<Node> nodes;
+	// 存储环境中的所有障碍物
 	vector<Obstacle> obstacles;
 
 	// 碰撞检测(利用向量ao在向量ab上的投影，来获取线段ab离圆心最近的点c，通过co与半径r比较来判断是否碰撞)

@@ -1,4 +1,4 @@
 ﻿  PRM.cpp
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\03_PRM\PRM.cpp(172,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\03_PRM\PRM.cpp(173,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\03_PRM\PRM.cpp(177,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\03_PRM\PRM.cpp(178,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   03_PRM.vcxproj -> E:\VisualStudio\Projects\PathPlanningAlgorithm\PPA\x64\Debug\03_PRM.exe
